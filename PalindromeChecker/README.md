@@ -1,9 +1,14 @@
 A simple app to check if a word or phrase can be read the same way forwards and backwards
 
+
 How to Run
 
-Clone this repository:
+1.	Clone this repository:
 git clone
-https://github.com/Matchittom/FreeCodeCamp/PalindromeChecker.git
+https://github.com/Matchittom/FreeCodeCamp.git
 
-2. Open index.html in your browser.
+2. Change directory:
+cd FreeCodeCamp/PalindromeChecker
+
+3. Open in browser:
+open index.html 
