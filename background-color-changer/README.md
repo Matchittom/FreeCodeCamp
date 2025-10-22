@@ -13,8 +13,15 @@ Using () for functions,
 Fix references to button element,
 btn.onclick = changeBackgroundColor(); -> btn.onclick = changeBackgroundColor;
 
-## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Matchittom/FreeCodeCamp/background-color-changer.git
-2. Open index.html in your browser.
+
+How to Run
+
+1.	Clone this repository:
+git clone
+https://github.com/Matchittom/FreeCodeCamp.git
+
+2. Change directory:
+cd FreeCodeCamp/background-color-changer
+
+3. Open in browser:
+open index.html 
