@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+ 
+ background: #ffe6f2;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+#results-div {
+  margin-top: 15px;
+  padding: 10px;
+  min-height: 20px;
+  border: 1px solid #ccc;
+}
