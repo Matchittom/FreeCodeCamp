@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* App container */
+.container {
+  background: #111827;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #22c55e;
+  color: #052e16;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Change due output */
+#change-due {
+  margin-top: 1.25rem;
+  padding: 0.75rem;
+  background: #020617;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: left;
+  min-height: 2.5rem;
+}
+
